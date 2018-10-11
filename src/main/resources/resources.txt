@@ -1,0 +1,2 @@
+https://www.freecodeformat.com/json2javabean.php
+http://json2java.azurewebsites.net
