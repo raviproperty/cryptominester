@@ -3,23 +3,23 @@
     "api": {
         "port": 0,
         "access-token": null,
-        "worker-id": "tipp",
+        "worker-id": "rigamd1",
         "ipv6": false,
         "restricted": true
     },
     "background": false,
     "cache": true,
     "colors": true,
-    "donate-level": 3,
+    "donate-level": 1,
     "log-file": null,
     "opencl-platform": 0,
     "opencl-loader": "libOpenCL.so",
     "pools": [
         {
-            "url": "webcn.loudmining.com:2222",
-            "user": "0x984378faae9b68bd1b288209c7137a5c3bfe3506",
+            "url": "webcn.loudmining.com:3333",
+            "user": "0xb63e61bb07daa345800935ec554094a5451e4b3e",
             "pass": "x",
-            "worker-id": "wooj",
+            "worker-id": "rigamd",
             "nicehash": false,
             "keepalive": true,
             "variant": 1
@@ -31,6 +31,69 @@
     "threads": [
         {
             "index": 0,
+            "intensity": 200,
+            "worksize": 8,
+            "strided_index": 1,
+            "mem_chunk": 2,
+            "comp_mode": true,
+            "affine_to_cpu": false
+        },
+        {
+            "index": 1,
+            "intensity": 200,
+            "worksize": 8,
+            "strided_index": 1,
+            "mem_chunk": 2,
+            "comp_mode": true,
+            "affine_to_cpu": false
+        },
+        {
+            "index": 2,
+            "intensity": 200,
+            "worksize": 8,
+            "strided_index": 1,
+            "mem_chunk": 2,
+            "comp_mode": true,
+            "affine_to_cpu": false
+        },
+        {
+            "index": 3,
+            "intensity": 200,
+            "worksize": 8,
+            "strided_index": 1,
+            "mem_chunk": 2,
+            "comp_mode": true,
+            "affine_to_cpu": false
+        },
+        {
+            "index": 4,
+            "intensity": 200,
+            "worksize": 8,
+            "strided_index": 1,
+            "mem_chunk": 2,
+            "comp_mode": true,
+            "affine_to_cpu": false
+        },
+        {
+            "index": 5,
+            "intensity": 200,
+            "worksize": 8,
+            "strided_index": 1,
+            "mem_chunk": 2,
+            "comp_mode": true,
+            "affine_to_cpu": false
+        },
+        {
+            "index": 6,
+            "intensity": 200,
+            "worksize": 8,
+            "strided_index": 1,
+            "mem_chunk": 2,
+            "comp_mode": true,
+            "affine_to_cpu": false
+        },
+        {
+            "index": 7,
             "intensity": 200,
             "worksize": 8,
             "strided_index": 1,
