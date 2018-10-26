@@ -19,7 +19,7 @@
     "pools": [
         {
             "url": "webchain.poolxyz.com:3333",
-            "user": "0x984378faae9b68bd1b288209c7137a5c3bfe3506",
+            "user": "0xb63e61bb07daa345720935ec554094a5451e4b3e",
             "pass": "x",
             "worker-id": "WORKER",
             "nicehash": false,
@@ -27,6 +27,17 @@
             "variant": 1,
             "tls": false,
             "tls-fingerprint": null
+        }
+    ],
+     "threads": [
+        {
+            "index": 0,
+            "intensity": 720,
+            "worksize": 8,
+            "strided_index": 1,
+            "mem_chunk": 2,
+            "comp_mode": true,
+            "affine_to_cpu": false
         }
     ],
     "print-time": 60,
