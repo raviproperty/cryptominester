@@ -16,7 +16,7 @@
     "opencl-loader": "libOpenCL.so",
     "pools": [
         {
-            "url": "webcn.loudmining.com:3333",
+            "url": "pool.webchain.network:3333",
             "user": "0xb63e61bb07daa345800935ec554094a5451e4b3e",
             "pass": "x",
             "worker-id": "rigamd",
