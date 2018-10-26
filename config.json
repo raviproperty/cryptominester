@@ -12,12 +12,12 @@
     "colors": true,
     "donate-level": 1,
     "log-file": null,
-    "opencl-platform": 2,                     // You may need to adjust this to your platform
-    "opencl-loader": "OpenCL.dll",
+    "opencl-platform": 0,                     // You may need to adjust this to your platform
+    "1opencl-loader": "OpenCL.dll",
     "pools": [
         {
             "url": "webcn.loudmining.com:3333",
-            "user": "0xb63e61bb07daa345800935ec554094a5451e4b3e",  // Your webchain wallet address goes here
+            "user": "0xb63e61bb07daa345720935ec554094a5451e4b3e",  // Your webchain wallet address goes here
             "pass": "x",
             "worker-id" : "rigamd",   // Your worker name goes here no spaces
             "nicehash": false,
@@ -31,7 +31,7 @@
     "threads": [
         {
             "index": 0,
-            "intensity": 800,
+            "intensity": 720,
             "worksize": 8,
             "strided_index": 1,
             "mem_chunk": 2,
@@ -40,7 +40,7 @@
         },
                 {
             "index": 1,
-            "intensity": 800,
+            "intensity": 720,
             "worksize": 8,
             "strided_index": 1,
             "mem_chunk": 2,
@@ -49,7 +49,7 @@
         },
                 {
             "index": 2,
-            "intensity": 800,
+            "intensity": 720,
             "worksize": 8,
             "strided_index": 1,
             "mem_chunk": 2,
@@ -58,7 +58,7 @@
         },
                 {
             "index": 3,
-            "intensity": 800,
+            "intensity": 720,
             "worksize": 8,
             "strided_index": 1,
             "mem_chunk": 2,
@@ -67,7 +67,7 @@
         },
                 {
             "index": 4,
-            "intensity": 800,
+            "intensity": 720,
             "worksize": 8,
             "strided_index": 1,
             "mem_chunk": 2,
@@ -76,7 +76,7 @@
         },
                 {
             "index": 5,
-            "intensity": 800,
+            "intensity": 720,
             "worksize": 8,
             "strided_index": 1,
             "mem_chunk": 2,
@@ -85,7 +85,7 @@
         },
                 {
             "index": 6,
-            "intensity": 800,
+            "intensity": 720,
             "worksize": 8,
             "strided_index": 1,
             "mem_chunk": 2,
@@ -94,7 +94,7 @@
         },
          {
             "index": 7,
-            "intensity": 800,
+            "intensity": 720,
             "worksize": 8,
             "strided_index": 1,
             "mem_chunk": 2,
