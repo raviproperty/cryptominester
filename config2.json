@@ -3,36 +3,35 @@
     "api": {
         "port": 0,
         "access-token": null,
-        "id": null,
-        "worker-id": null,
+        "worker-id": "tipp",
         "ipv6": false,
         "restricted": true
     },
-    "autosave": true,
     "background": false,
     "cache": true,
     "colors": true,
     "donate-level": 3,
     "log-file": null,
-    "opencl-platform": "AMD",
+    "opencl-platform": 0,
     "opencl-loader": "libOpenCL.so",
     "pools": [
         {
-            "url": "webchain.poolxyz.com:3333",
-            "user": "0xb63e61bb07daa345720935ec554094a5451e4b3e",
+            "url": "webcn.loudmining.com:2222",
+            "user": "0x984378faae9b68bd1b288209c7137a5c3bfe3506",
             "pass": "x",
-            "worker-id": "WORKER",
+            "worker-id": "wooj",
             "nicehash": false,
-            "keepalive": false,
-            "variant": 1,
-            "tls": false,
-            "tls-fingerprint": null
+            "keepalive": true,
+            "variant": 1
         }
     ],
-     "threads": [
+    "print-time": 60,
+    "retries": 5,
+    "retry-pause": 5,
+    "threads": [
         {
             "index": 0,
-            "intensity": 720,
+            "intensity": 200,
             "worksize": 8,
             "strided_index": 1,
             "mem_chunk": 2,
@@ -40,9 +39,6 @@
             "affine_to_cpu": false
         }
     ],
-    "print-time": 60,
-    "retries": 5,
-    "retry-pause": 5,
     "user-agent": null,
     "syslog": false,
     "watch": false
