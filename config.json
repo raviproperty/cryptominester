@@ -1,108 +1,25 @@
 {
     "algo": "cryptonight-webchain",
-    "api": {
-        "port": 0,
-        "access-token": null,
-        "worker-id": null,
-        "ipv6": false,
-        "restricted": true
-    },
     "background": false,
-    "cache": true,
     "colors": true,
-    "donate-level": 1,
+    "donate-level": 3,
     "log-file": null,
-    "opencl-platform": 0,                     // You may need to adjust this to your platform
-    "opencl-loader": "libOpenCL.so",
-    "pools": [
-        {
-            "url": "webcn.loudmining.com:3333",
-            "user": "0xb63e61bb07daa345720935ec554094a5451e4b3e",  // Your webchain wallet address goes here
-            "pass": "x",
-            "worker-id" : "rigamd",   // Your worker name goes here no spaces
-            "nicehash": false,
-            "keepalive": false,
-            "variant": 1
-        }
-    ],
     "print-time": 60,
     "retries": 5,
     "retry-pause": 5,
-    "threads": [
+    "pools": [
         {
-            "index": 0,
-            "intensity": 720,
-            "worksize": 8,
-            "strided_index": 1,
-            "mem_chunk": 2,
-            "comp_mode": true,
-            "affine_to_cpu": false
-        },
-                {
-            "index": 1,
-            "intensity": 720,
-            "worksize": 8,
-            "strided_index": 1,
-            "mem_chunk": 2,
-            "comp_mode": true,
-            "affine_to_cpu": false
-        },
-                {
-            "index": 2,
-            "intensity": 720,
-            "worksize": 8,
-            "strided_index": 1,
-            "mem_chunk": 2,
-            "comp_mode": true,
-            "affine_to_cpu": false
-        },
-                {
-            "index": 3,
-            "intensity": 720,
-            "worksize": 8,
-            "strided_index": 1,
-            "mem_chunk": 2,
-            "comp_mode": true,
-            "affine_to_cpu": false
-        },
-                {
-            "index": 4,
-            "intensity": 720,
-            "worksize": 8,
-            "strided_index": 1,
-            "mem_chunk": 2,
-            "comp_mode": true,
-            "affine_to_cpu": false
-        },
-                {
-            "index": 5,
-            "intensity": 720,
-            "worksize": 8,
-            "strided_index": 1,
-            "mem_chunk": 2,
-            "comp_mode": true,
-            "affine_to_cpu": false
-        },
-                {
-            "index": 6,
-            "intensity": 720,
-            "worksize": 8,
-            "strided_index": 1,
-            "mem_chunk": 2,
-            "comp_mode": true,
-            "affine_to_cpu": false
-        },
-         {
-            "index": 7,
-            "intensity": 720,
-            "worksize": 8,
-            "strided_index": 1,
-            "mem_chunk": 2,
-            "comp_mode": true,
-            "affine_to_cpu": false
-        },
+            "url": "webchain.thetapool.com:3333",
+            "user": "0xb63e61bb07daa345800935ec554094a5451e4b3e",
+            "pass": "x",
+            "keepalive": true,
+            "nicehash": false,
+            "variant": 1
+        }
     ],
-    "user-agent": null,
-    "syslog": false,
-    "watch": false
+    "api": {
+        "port": 0,
+        "access-token": null,
+        "worker-id": null
+    }
 }
