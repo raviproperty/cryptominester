@@ -13,7 +13,7 @@
     "donate-level": 1,
     "log-file": null,
     "opencl-platform": 0,                     // You may need to adjust this to your platform
-    "1opencl-loader": "OpenCL.dll",
+    "opencl-loader": "libOpenCL.so",
     "pools": [
         {
             "url": "webcn.loudmining.com:3333",
