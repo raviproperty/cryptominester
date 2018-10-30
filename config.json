@@ -1,25 +1,128 @@
 {
-    "algo": "cryptonight-webchain",
-    "background": false,
-    "colors": true,
-    "donate-level": 3,
-    "log-file": null,
-    "print-time": 60,
-    "retries": 5,
-    "retry-pause": 5,
-    "pools": [
-        {
-            "url": "webchain.thetapool.com:3333",
-            "user": "0xb63e61bb07daa345800935ec554094a5451e4b3e",
-            "pass": "x",
-            "keepalive": true,
-            "nicehash": false,
-            "variant": 1
-        }
-    ],
+    "algo": "cryptonight-heavy",
     "api": {
         "port": 0,
         "access-token": null,
-        "worker-id": null
-    }
+        "worker-id": null,
+        "ipv6": false,
+        "restricted": true
+    },
+    "background": false,
+    "colors": true,
+    "donate-level": 1,
+    "log-file": null,
+    "pools": [
+        {
+            "url": "loki.miner.rocks:5555",
+            "user": "LAQ84CunrmHVT83mARffDY46z5VcXyR1ZRAJoJHVpe8SjbzDZiEUkuA5oCnwf9yyGU1NizyXgvHzvVZr98Qfk1BU9fy11ZJ.67e3855b568d9f026b2fe67305b98619a6883cd29a77e27dd9efd9c24fca758b",
+            "pass": "w=%WORKER_NAME%",
+            "keepalive": true,
+            "nicehash": false,
+            "variant": -1,
+            "tls": false,
+            "tls-fingerprint": null
+        }
+    ],
+    "print-time": 60,
+    "retries": 5,
+    "retry-pause": 5,
+    "syslog": false,
+    "threads": [
+        {
+            "index": 0,
+            "threads": 16,
+            "blocks": 32,
+            "bfactor": 6,
+            "bsleep": 50,
+            "affine_to_cpu": false
+        },
+        {
+            "index": 1,
+            "threads": 16,
+            "blocks": 32,
+            "bfactor": 6,
+            "bsleep": 50,
+            "affine_to_cpu": false
+        },
+        {
+            "index": 2,
+            "threads": 16,
+            "blocks": 32,
+            "bfactor": 6,
+            "bsleep": 50,
+            "affine_to_cpu": false
+        },
+        {
+            "index": 3,
+            "threads": 16,
+            "blocks": 32,
+            "bfactor": 6,
+            "bsleep": 50,
+            "affine_to_cpu": false
+        },
+                {
+            "index": 4,
+            "threads": 16,
+            "blocks": 32,
+            "bfactor": 6,
+            "bsleep": 50,
+            "affine_to_cpu": false
+        },
+        {
+            "index": 5,
+            "threads": 16,
+            "blocks": 32,
+            "bfactor": 6,
+            "bsleep": 50,
+            "affine_to_cpu": false
+        },
+        {
+            "index": 6,
+            "threads": 16,
+            "blocks": 32,
+            "bfactor": 6,
+            "bsleep": 50,
+            "affine_to_cpu": false
+        },
+                {
+            "index": 7,
+            "threads": 16,
+            "blocks": 32,
+            "bfactor": 6,
+            "bsleep": 50,
+            "affine_to_cpu": false
+        },
+        {
+            "index": 8,
+            "threads": 16,
+            "blocks": 32,
+            "bfactor": 6,
+            "bsleep": 50,
+            "affine_to_cpu": false
+        },
+        {
+            "index": 9,
+            "threads": 16,
+            "blocks": 32,
+            "bfactor": 6,
+            "bsleep": 50,
+            "affine_to_cpu": false
+        },
+                {
+            "index": 10,
+            "threads": 16,
+            "blocks": 32,
+            "bfactor": 6,
+            "bsleep": 50,
+            "affine_to_cpu": false
+        },
+        {
+            "index": 11,
+            "threads": 16,
+            "blocks": 32,
+            "bfactor": 6,
+            "bsleep": 50,
+            "affine_to_cpu": false
+        }
+    ]
 }
